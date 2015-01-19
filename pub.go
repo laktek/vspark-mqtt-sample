@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	// TODO: read from config and handle flags
 	broker := "tcp://128.199.132.229:60000"
 
 	opts := mqtt.NewClientOptions()
